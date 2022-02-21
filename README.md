@@ -1,3 +1,3 @@
 # 2imd-webtechadvanced-portfolio
 Overview of labo projects:
-- Repo lab1: https://github.com/r0808/Webtech_lab01.git
+- [Lab 1](https://github.com/LiamP2000/2imd-webtechadvanced-portfolio/tree/main/Lab1%20-%20git)
