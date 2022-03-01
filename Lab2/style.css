@@ -1,0 +1,17 @@
+.red{
+    background-color: #F72B4F;
+}
+
+.blue{
+    background-color: #58F5F0;
+}
+
+.yellow{
+    background-color: #FFFF1D;
+}
+
+h1{
+    font-size: 1.5em;
+    display:table-cell; 
+    vertical-align:middle;
+}
