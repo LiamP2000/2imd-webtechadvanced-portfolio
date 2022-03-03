@@ -1,0 +1,30 @@
+.red{
+    background-color: #F72B4F;
+}
+
+.blue{
+    background-color: #58F5F0;
+}
+
+.yellow{
+    background-color: #FFFF1D;
+}
+
+
+
+.section {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . blue . ."
+      ". . blue yellow yellow"
+      ". . blue yellow yellow";
+  }
+  
+  .blue { grid-area: blue; }
+  
+  .yellow { grid-area: yellow; }
+  
