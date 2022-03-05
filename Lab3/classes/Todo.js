@@ -8,7 +8,7 @@ export default class Todo {
     createElement() {
 
       let li = document.createElement("li");
-      li.innerHTML = thuis.title;
+      li.innerHTML = this.title;
       li.classList.add("prior-high");
       return li;
       // HINT🤩
