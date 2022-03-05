@@ -31,3 +31,21 @@ section{
     padding: 1em;
     margin: 1em;
 }
+
+@media(min-width: 820px){
+    section{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .blue{
+        align-items: center;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .yellow{
+        align-items: center;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+}
