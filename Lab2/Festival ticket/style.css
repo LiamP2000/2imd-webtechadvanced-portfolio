@@ -8,6 +8,7 @@ h1{
     font-size: 2em;
 }
 
+
 h2{
     padding: 5px;
     margin: 0;
@@ -82,11 +83,12 @@ h2{
     .header{
         flex-direction: column-reverse;
         justify-content: center;
-        margin: 10px;
+        margin: 0px;
         grid-column: 1/4;
         grid-row: 1/4;
         display: flex;
     }
+
     
     .qr {
         height: 300px;
@@ -96,7 +98,7 @@ h2{
     }
 
     h1 {
-        font-size: 8em;
+        font-size: 3em;
     }
 
     .details {
