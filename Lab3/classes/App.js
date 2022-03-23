@@ -14,8 +14,9 @@ export default class App {
     setupEventListeners() {
       console.log("👂🏽");
       // HINT🤩
-        document.querySelector("#add-item-text").addEventListener("keyUp", this.createItem.bind(this));
-
+      document.querySelector("#add-item-text");
+      document.addEventListener("keyup", this.createItem.bind(this));
+      
 
       // pressing the enter key in the text field triggers the createItem function
       // addEventListener("keyup", this.createItem.bind(this));
